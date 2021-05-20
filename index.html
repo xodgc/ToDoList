@@ -15,14 +15,20 @@
     <br>
 
     <label for="due-date">Due Date</label>
-    <input type="text" id="due-date">
+    <input type="date" id="due-date">
     <span>*</span>
     <br>
 
-    <input type="checkbox">
+    <input id="is-complete" type="checkbox">
     <label for="is-complete">Is Complete?</label>
     <br>
 
-    <input type="button" value="Add ToDo Item">
+    <input type="button" id="add" value="Add ToDo Item">
+
+    <h3>ToDo Items</h3>
+    <div id="incomplete-items"></div>
+    <div id="complete-items"></div>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
