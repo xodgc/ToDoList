@@ -59,10 +59,13 @@ function displayToDoItem(item:ToDoItem):void{
     if(item.isCompleted){
         itemDiv.classList.add("completed");
     }
+    else{
+        itemDiv.classList.add("incompleted");
+    }
 
     itemDiv.appendChild(itemText);
     itemDiv.appendChild(itemDate);
-    
+
 
     if(item.isCompleted){
         let completedToDos = document.getElementById("complete-items");

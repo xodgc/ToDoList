@@ -39,6 +39,9 @@ function displayToDoItem(item) {
     if (item.isCompleted) {
         itemDiv.classList.add("completed");
     }
+    else {
+        itemDiv.classList.add("incompleted");
+    }
     itemDiv.appendChild(itemText);
     itemDiv.appendChild(itemDate);
     if (item.isCompleted) {

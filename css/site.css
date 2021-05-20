@@ -1,0 +1,34 @@
+.completed{
+    opacity: 75%;
+    background-color: lightgreen;
+}
+
+.incompleted{
+    opacity: 75%;
+    background-color: lightcoral;
+}
+
+#complete-items{
+    border: .1em solid greenyellow;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#incomplete-items{
+    border: .1em solid red;
+    width: 50%;
+    box-sizing:border-box;
+}
+
+#all-items{
+    display:flex;
+}
+
+#complete-items, 
+#incomplete-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
