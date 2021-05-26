@@ -2,7 +2,7 @@ var ToDoItem = (function () {
     function ToDoItem() {
     }
     return ToDoItem;
-}());
+});
 window.onload = function () {
     var addItem = document.getElementById("add");
     addItem.onclick = main;
