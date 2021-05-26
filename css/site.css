@@ -1,27 +1,32 @@
 .completed{
     opacity: 75%;
     background-color: lightgreen;
+    align-items: center;
 }
 
 .incompleted{
     opacity: 75%;
     background-color: lightcoral;
+    align-items: center;
 }
 
 #complete-items{
     border: .1em solid greenyellow;
     width: 50%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 #incomplete-items{
     border: .1em solid red;
     width: 50%;
     box-sizing:border-box;
+    text-align: center;
 }
 
 #all-items{
     display:flex;
+    align-items: center;
 }
 
 #complete-items, 
@@ -30,5 +35,5 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 }
